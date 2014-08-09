@@ -40,6 +40,7 @@ sub configure {
          MakeMaker
          Manifest
          AutoPrereqs
+         Test::ReportPrereqs
          TestRelease
          ),
       # per-plugin configuration
@@ -57,8 +58,8 @@ This is a Dist::Zilla plugin bundle based upon @Basic and @Classic,
 but using OurPkgVersion and PodWeaver instead of PkgVersion and
 PodVersion and not containing any upload functionality.
 
-Additionally it uses AutoPrereqs, GithubMeta, calls Test::Perl::Critic
-and generates both, META.yml and META.json.
+Additionally it uses AutoPrereqs, Test::ReportPrereqs, GithubMeta,
+calls Test::Perl::Critic and generates both, META.yml and META.json.
 
 The PruneFiles configuration also takes care of not shipping the
 debian subdirectory (if present) to CPAN.
