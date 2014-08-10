@@ -9,6 +9,8 @@ with 'Dist::Zilla::Role::PluginBundle::Easy';
 
 use namespace::autoclean;
 
+# VERSION
+
 =method configure
 
 See L<Dist::Zilla::Role::PluginBundle::Easy>.
