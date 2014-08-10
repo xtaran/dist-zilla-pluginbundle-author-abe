@@ -4,21 +4,22 @@ Priority: optional
 Maintainer: Axel Beckert <abe@debian.org>
 Build-Depends: debhelper (>= 9)
 Build-Depends-Indep: libconfig-ini-perl,
- libdist-zilla-perl,
- libfile-slurp-perl,
- libmoose-perl,
- libnamespace-autoclean-perl,
- libset-scalar-perl,
- perl
+                     libdist-zilla-perl,
+                     libfile-slurp-perl,
+                     libmoose-perl,
+                     libnamespace-autoclean-perl,
+                     libset-scalar-perl,
+                     perl
 Standards-Version: 3.9.5
 Homepage: https://metacpan.org/release/Dist-Zilla-PluginBundle-ABE
 
 Package: libdist-zilla-pluginbundle-abe-perl
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends},
- libdist-zilla-perl,
- libmoose-perl,
- libnamespace-autoclean-perl
+Depends: libdist-zilla-perl,
+         libmoose-perl,
+         libnamespace-autoclean-perl,
+         ${misc:Depends},
+         ${perl:Depends}
 Description: Axel's list of preferred Dist::Zilla plugins
  This is a Dist::Zilla plugin bundle based upon @Basic and @Classic, but using
  OurPkgVersion and PodWeaver instead of PkgVersion and PodVersion and not
