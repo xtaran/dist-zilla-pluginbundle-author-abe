@@ -2,7 +2,8 @@ Source: libdist-zilla-pluginbundle-abe-perl
 Section: perl
 Priority: optional
 Maintainer: Axel Beckert <abe@debian.org>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9),
+               dh-dist-zilla (>> 1)
 Build-Depends-Indep: libconfig-ini-perl,
                      libdist-zilla-perl,
                      libfile-slurp-perl,

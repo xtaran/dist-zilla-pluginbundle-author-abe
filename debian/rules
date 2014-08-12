@@ -1,4 +1,11 @@
 #!/usr/bin/make -f
+#export DH_VERBOSE=1
 
 %:
-	dh $@
+	dh $@ --with dist-zilla
+
+override_dh_dzil_build:
+	dh_dzil_build -- -Ilib
+
+override_dh_dzil_clean:
+	dh_dzil_clean -- -Ilib
