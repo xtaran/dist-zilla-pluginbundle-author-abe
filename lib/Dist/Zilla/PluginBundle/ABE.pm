@@ -24,7 +24,12 @@ sub configure {
       qw(
          GatherDir
          PruneCruft
-         PruneFiles
+        ),
+      # per-plugin configuration
+      [
+       PruneFiles => { filename => 'debian' },
+      ],
+      qw(
          ManifestSkip
          GithubMeta
          MetaYAML
@@ -44,11 +49,7 @@ sub configure {
          AutoPrereqs
          Test::ReportPrereqs
          TestRelease
-         ),
-      # per-plugin configuration
-      [
-       PruneFiles => { filename => 'debian' },
-      ],
+        ),
       );
 }
 
