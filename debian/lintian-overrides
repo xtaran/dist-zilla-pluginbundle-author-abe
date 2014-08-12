@@ -1,0 +1,2 @@
+# The debian directory is meant and that isn't written with a capital "D".
+libdist-zilla-pluginbundle-abe-perl: capitalization-error-in-description debian Debian
