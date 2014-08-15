@@ -3,7 +3,7 @@ Dist::Zilla::PluginBundle::ABE
 
 [![Travis CI Build Status](https://travis-ci.org/xtaran/dist-zilla-pluginbundle-abe.svg)](https://travis-ci.org/xtaran/dist-zilla-pluginbundle-abe)
 
-This is Axel's own and preferred PluginBundle for Dist::Zilla.
+This is [Axel](https://metacpan.org/author/ABE)'s own and preferred PluginBundle for Dist::Zilla.
 
 It's based upon the PluginBundles `@Basic` and `@Classic`, but using
 `OurPkgVersion` and `PodWeaver` instead of `PkgVersion` and
