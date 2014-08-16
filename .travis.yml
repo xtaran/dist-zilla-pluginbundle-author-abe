@@ -19,3 +19,6 @@ install:
 
 script:
    - dzil -Ilib smoke --release --author
+
+notifications:
+  irc: "irc.lugs.ch#kivamon"
