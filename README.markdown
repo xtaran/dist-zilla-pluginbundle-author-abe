@@ -1,7 +1,7 @@
-Dist::Zilla::PluginBundle::ABE
-==============================
+Dist::Zilla::PluginBundle::Author::ABE
+======================================
 
-[![Travis CI Build Status](https://travis-ci.org/xtaran/dist-zilla-pluginbundle-abe.svg)](https://travis-ci.org/xtaran/dist-zilla-pluginbundle-abe)
+[![Travis CI Build Status](https://travis-ci.org/xtaran/dist-zilla-pluginbundle-author-abe.svg)](https://travis-ci.org/xtaran/dist-zilla-pluginbundle-author-abe)
 
 This is [Axel](https://metacpan.org/author/ABE)'s own and preferred PluginBundle for Dist::Zilla.
 

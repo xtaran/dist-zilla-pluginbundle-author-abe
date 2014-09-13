@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package Dist::Zilla::PluginBundle::ABE;
+package Dist::Zilla::PluginBundle::Author::ABE;
 
 # ABSTRACT: Axel's list of preferred Dist::Zilla plugins
 

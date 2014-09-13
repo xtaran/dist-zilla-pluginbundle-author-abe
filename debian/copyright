@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Source: https://metacpan.org/release/Dist-Zilla-PluginBundle-ABE
+Source: https://metacpan.org/release/Dist-Zilla-PluginBundle-Author-ABE
 Upstream-Contact: Axel Beckert <abe@deuxchevaux.org>
-Upstream-Name: Dist-Zilla-PluginBundle-ABE
+Upstream-Name: Dist-Zilla-PluginBundle-Author-ABE
 
 Files: *
 Copyright: 2014, Axel Beckert <abe@deuxchevaux.org>
