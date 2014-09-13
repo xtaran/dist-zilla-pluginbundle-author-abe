@@ -69,4 +69,4 @@ debian subdirectory (if present) to CPAN.
 
 =cut
 
-1;
+'0e0'; # SCNR
